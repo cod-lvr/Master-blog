@@ -1,0 +1,99 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.24rem;
+}
+img {
+  width: 100%;
+}
+button {
+  padding: 0.45rem 3rem;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0a3055;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #0a2f55a4;
+}
+
+/* ========= navBar =========== */
+#navbar {
+  padding: 1rem 3rem;
+  background-color: #0081ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar .logo {
+  width: 12%;
+}
+#navbar .nav-links {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ========= main =========== */
+#main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#main #feature {
+  padding: 0 3rem;
+  width: 40%;
+  background-color: #0a3055;
+  height: 100vmax;
+}
+#main #feature h2 {
+  color: #fff;
+}
+#main #feature ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+#feature ul li {
+  margin-top: 5px;
+  margin-left: -34px;
+  color: rgb(199, 199, 199);
+}
+#feature ul li button {
+  color: rgb(199, 199, 199);
+}
+/* ========= posts =========== */
+#posts {
+  padding: 1rem 2rem;
+}
+#posts li {
+  padding: 2rem;
+  background-color: #0081ff;
+  margin: 2rem 0;
+  border-radius: 12px;
+}
+#posts li button {
+  margin: 0.5rem 0rem 0.1rem;
+}
+li .content-box {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+}
+li .content-box h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}

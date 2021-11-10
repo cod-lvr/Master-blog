@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/main.js" defer></script>
+    <title>Master Blogs</title>
+  </head>
+  <body>
+    <template id="single-post">
+      <li>
+        <div class="content-box">
+          <h3></h3>
+          <p></p>
+        </div>
+        <button>delete</button>
+      </li>
+    </template>
+    <nav id="navbar">
+      <div class="logo">
+        <img src="./media/logo.png" alt="logo" />
+      </div>
+      <div class="nav-links">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <button>Add</button>
+      </div>
+    </nav>
+    <main id="main">
+      <aside id="feature">
+        <h2>Feature Posts</h2>
+        <ul>
+          <li><button class="posts">posts</button></li>
+          <li><button class="comments">comments</button></li>
+          <li><button class="photos">photos</button></li>
+          <li><button class="todos">todos</button></li>
+        </ul>
+      </aside>
+      <div id="posts">
+        <ul></ul>
+      </div>
+    </main>
+  </body>
+</html>
